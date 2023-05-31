@@ -7,7 +7,7 @@ type FirebaseConfigType = {
   storageBucket: string;
   messagingSenderId: string;
   appId: string;
-}
+};
 
 const firebaseConfig: FirebaseConfigType = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
